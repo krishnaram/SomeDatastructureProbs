@@ -13,6 +13,14 @@ public class Child extends Parent implements Runnable, Serializable {
 	/**
 	 * 
 	 */
+	public Child(){
+		System.out.println("Child constructor");
+
+	}
+	public Child(int value){
+		System.out.println("Child constructor value is: "+value);
+
+	}
 	private static final long serialVersionUID = 1L;
 	int x = 10;
 	public static void display() throws FileNotFoundException{
@@ -51,6 +59,9 @@ public class Child extends Parent implements Runnable, Serializable {
 			e1.printStackTrace();
 		}
 		Child b= new Child();
+		System.out.println("========================");
+		Child c1= new Child(1);
+		System.out.println("========================");
 		try {
 			b.display();
 		} catch (FileNotFoundException e1) {
