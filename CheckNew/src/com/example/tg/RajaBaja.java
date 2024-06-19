@@ -53,19 +53,19 @@ public class RajaBaja {
 			switch(number)
 			{
 			case 0:
-				moveUp();
+				//moveUp();
 				break;
 			case 1:
-				moveLeft()
+				//moveLeft()
 				break;
 			case 2:
-				moveUpLeft();
+				//moveUpLeft();
 				break;
 			}
 		}
 		
 		
-		return null;
+		//return null;
 	}
 	
 	
