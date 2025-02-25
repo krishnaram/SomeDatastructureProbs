@@ -29,6 +29,5 @@ public class Car {
         else{
             System.out.println("You cannot drive that much");
         }
-
     }
 }
