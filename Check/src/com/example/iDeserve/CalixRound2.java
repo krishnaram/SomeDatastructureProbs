@@ -5,7 +5,6 @@ import java.util.*;
         import java.io.*;
 
 class CalixRound2 {
-
     public static String KUniqueCharacters(String str) {
         String subString = "";
         String runningSubString = "";
@@ -83,12 +82,13 @@ class CalixRound2 {
         // keep this function call here
         System.out.println("Sample test passing: " + (KUniqueCharacters("3aabacbebebe").equals("cbebebe")) + "\r\n");
         System.out.println("Sample test passing: " + (KUniqueCharacters("2aabbacbaa").equals("aabba")) + "\r\n");
-
+        System.out.println("Sample test passing: " + (KUniqueCharacters("4aabctytytytytbatytytycbaa").equals("tytytytytbatytyty")) + "\r\n");
     }
 
 }
+//[1,2,4,5,6,7,8,9]
 
-
+//6 1,5 2,4
 /*uniqueCharPos[] //  Latest Position
 uniqueChar[] // All unique chars
 uniqueChar =0 ;
